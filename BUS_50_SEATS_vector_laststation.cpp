@@ -24,7 +24,7 @@ system("color f1");
                 for (i=0; i<stat; ++i)
                 {
                     _Bool flagstat1=0;
-				            while (!flagstat1)
+		    while (!flagstat1)
                     {                      
                          if (bus.size()==0)
                          {
