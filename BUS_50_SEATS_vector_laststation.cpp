@@ -7,17 +7,17 @@ int main()
 {
 system("color f1");
               
-      vector <int> bus;
-      vector <int> test_bus;
-			int stat,pokemons,i;
-			int station[4];
+      	vector <int> bus;
+      	vector <int> test_bus;
+	int stat,pokemons,i;
+	int station[4];
 			
 			
       cout<<"Afethria!!!"<<endl;
 			
       for (stat=0; stat<4; ++stat)
       {
-				cout<<"Epibates : "<<bus.size()<<endl;
+		cout<<"Epibates : "<<bus.size()<<endl;
                 
                 int poke_sum=0; //a8roisma epi8atwn stasewn mexri ekeinh thn sthgmh
                 
@@ -39,8 +39,8 @@ system("color f1");
                                     {
                                                 cout<<"@@@ LA8OS !!! DWSE PALI @@@"<<endl;
                                     }else{
-												                        poke_sum+=station[i-1];
-												                        bus.erase(bus.begin()+poke_sum,bus.begin()+poke_sum+pokemons);
+						poke_sum+=station[i-1];
+						bus.erase(bus.begin()+poke_sum,bus.begin()+poke_sum+pokemons);
                                                 station[i]-=pokemons;                                          
                                                 flagstat1=1;
                                     }
@@ -64,9 +64,9 @@ system("color f1");
                         {
                                 cout<<"@@@ LA8OS !!! DWSE PALI @@@"<<endl;
                         }else if (test_bus.size()>50){
-								            cout<<"MEGISTOS ARI8MOS EPIBATWN 50. DWSE PALI"<<endl;
+				cout<<"MEGISTOS ARI8MOS EPIBATWN 50. DWSE PALI"<<endl;
                         }else{
-                         		station[stat]=pokemons;
+                         	station[stat]=pokemons;
                                 flagstat2=1;
                         }
                 }
